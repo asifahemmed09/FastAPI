@@ -22,8 +22,6 @@ ENV/
 # Environment variables
 # =========================
 
-.env
-.env.*
 !.env.example
 
 # =========================
@@ -55,7 +53,6 @@ htmlcov/
 # IDE / Editors
 # =========================
 
-.vscode/
 .idea/
 
 # VS Code settings that are sometimes worth committing
@@ -108,3 +105,5 @@ static/generated/
 *.pem
 *.key
 *.crt
+config.bat
+node_modules
